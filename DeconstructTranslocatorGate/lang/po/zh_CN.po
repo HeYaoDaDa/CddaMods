@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: None\n"
+"POT-Creation-Date: 2023-06-30 22:16+0800\n"
+"PO-Revision-Date: 2023-06-30 22:18+0800\n"
+"Last-Translator:  <zhangwei.weber@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. ~ MOD name
+#: DeconstructTranslocatorGate/modinfo.json
+msgid "Deconstruct Translocator Gate"
+msgstr "拆解易位门"
+
+#. ~ Description of MOD "Deconstruct Translocator Gate"
+#: DeconstructTranslocatorGate/modinfo.json
+msgid ""
+"'Construction / Constructions / Deconstruct Furniture' can deconstruct "
+"translocator gate."
+msgstr "可在'建筑选项/建筑/拆解家具'中拆解易位门。"

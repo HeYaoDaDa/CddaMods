@@ -1,0 +1,23 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "FillFlowingShallowWater",
+    "name": "Fill Flowing Shallow Water",
+    "authors": [ "HeYaoDaDa" ],
+    "description": "'Construction / Constructions / Fill Shallow Water With Dirt' can fill Flowing Shallow Water.",
+    "category": "misc_additions",
+    "version": "1.0"
+  },
+  {
+    "type": "construction",
+    "id": "ffsw_constr_fill_water_move_sh",
+    "group": "fill_shallow_water_with_dirt",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "survival", 1 ] ],
+    "time": "60 m",
+    "qualities": [ [ { "id": "DIG", "level": 2 } ] ],
+    "components": [ [ [ "material_soil", 60 ] ] ],
+    "pre_terrain": "t_water_moving_sh",
+    "post_terrain": "t_dirt"
+  }
+]

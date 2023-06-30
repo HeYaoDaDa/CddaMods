@@ -1,0 +1,29 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "DeconstructTranslocatorGate",
+    "name": "Deconstruct Translocator Gate",
+    "authors": [ "HeYaoDaDa" ],
+    "description": "'Construction / Constructions / Deconstruct Furniture' can deconstruct translocator gate.",
+    "category": "misc_additions",
+    "dependencies": [ "magiclysm" ],
+    "version": "1.0"
+  },
+  {
+    "type": "furniture",
+    "id": "f_magiclysm_translocator_gate",
+    "copy-from": "f_magiclysm_translocator_gate",
+    "symbol": "X",
+    "color": "light_gray",
+    "examine_action": "translocator",
+    "deconstruct": {
+      "items": [
+        { "item": "wood_sheet", "count": [ 1, 2 ] },
+        { "item": "2x4", "count": [ 2, 4 ] },
+        { "item": "nail", "charges": [ 12, 24 ] },
+        { "item": "teleporter", "count": 1 },
+        { "item": "sheet", "count": [ 1, 2 ] }
+      ]
+    }
+  }
+]
